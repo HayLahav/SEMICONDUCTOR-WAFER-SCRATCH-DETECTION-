@@ -1,4 +1,8 @@
 # 🔬 Semiconductor Wafer Scratch Detection - Enhanced Hybrid Model
+
+![image](https://github.com/user-attachments/assets/0b1609d4-ed45-4bbb-bc1b-d205ce452fec)
+
+
 ## Advanced Deep Learning Solution for Automated Defect Detection in Semiconductor Manufacturing
 ### 📋 Table of Contents
 
@@ -195,10 +199,13 @@ Planned Enhancements
  Edge Deployment: Optimize for production environments
  Active Learning: Incorporate human feedback loop
 
-🙏 Acknowledgments
+### 🙏 Acknowledgments
 
 UNet2DModel: From HuggingFace Diffusers
+
 Perception Encoder: Facebook Research perception_models
+
 SmolVLM: HuggingFace Vision-Language Model
+
 Google Colab: L4 GPU infrastructure
 
