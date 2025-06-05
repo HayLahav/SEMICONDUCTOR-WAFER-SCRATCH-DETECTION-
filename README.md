@@ -99,6 +99,7 @@ git clone https://github.com/facebookresearch/perception_models.git
 ### 💻 Usage
 
 1. Data Preparation
+
 python# Load wafer data
 df_wafers = pd.read_csv('wafers_train.csv')
 df_wafers_test = pd.read_csv('wafers_test.csv')
@@ -106,7 +107,9 @@ df_wafers_test = pd.read_csv('wafers_test.csv')
 Create dataset
 
 dataset = WaferMapDataset(df_wafers, wafer_size=64, yield_threshold=0.4)
+
 2. Model Training
+
 python# Initialize components
 unet_model = setup_model(device)
 enhanced_model = SmolVLMEnhancedHybridModel(unet_model, use_smolvlm=True)
